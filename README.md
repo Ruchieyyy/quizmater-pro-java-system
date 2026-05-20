@@ -112,20 +112,19 @@ Password: student123
 ## Screenshots
 
 ### Login Page
-![Login Page](screenshots/login-page.png)
+![Login Page](QuizMaster/screenshots/login-page.png)
 
 ### Admin Dashboard
-![Admin Dashboard](screenshots/admin-dashboard.png)
+![Admin Dashboard](QuizMaster/screenshots/admin-dashboard.png)
 
 ### Add Question Panel
-![Add Question](screenshots/add-question.png)
+![Add Question](QuizMaster/screenshots/add-question.png)
 
 ### Leaderboard
-![Leaderboard](screenshots/leaderboard.png)
+![Leaderboard](QuizMaster/screenshots/leaderboard.png)
 
 ### Quiz Result Screen
-![Quiz Results](screenshots/quiz-result.png)
-
+![Quiz Results](QuizMaster/screenshots/quiz-result.png)
 ## Key Functionalities
 
 ### Admin Features
