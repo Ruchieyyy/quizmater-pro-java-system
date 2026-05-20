@@ -113,19 +113,19 @@ Password: student123
 
 ### Login Page
 
-![Login Page](screenshots/login-page.jpeg)
+![Login Page](screenshots/login-page.png)
 
 ---
 
 ### Admin Dashboard
 
-![Admin Dashboard](screenshots/admin-dashboard.jpeg)
+![Admin Dashboard](screenshots/admin-dashboard.png)
 
 ---
 
 ### Add Question Panel
 
-![Add Question](screenshots/add-question.jpeg)
+![Add Question](screenshots/add-question.png)
 
 ---
 
@@ -137,7 +137,7 @@ Password: student123
 
 ### Quiz Result Screen
 
-![Quiz Results](screenshots/quiz-results.jpeg)
+![Quiz Results](screenshots/quiz-results.png)
 
 ---
 
