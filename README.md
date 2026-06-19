@@ -69,7 +69,7 @@ quizmater-pro-java-system/
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/YOURUSERNAME/quizmater-pro-java-system.git
+git clone https://github.com/Ruchieyyy/quizmater-pro-java-system.git
 ```
 
 ### 2. Open in IDE
