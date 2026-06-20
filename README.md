@@ -1,4 +1,4 @@
-# QuizMater Pro - Smart Quiz Management System
+# QuizMaster Pro - Smart Quiz Management System
 
 ## Overview
 
@@ -7,31 +7,43 @@ QuizMater Pro is a modern desktop-based quiz management platform developed using
 The application is inspired by modern quiz platforms and focuses on interactive UI design, modular architecture, and efficient quiz performance tracking.
 
 ---
+## Project Highlights
+
+- Built a desktop-based quiz platform inspired by modern online assessment systems.
+- Integrated MySQL database using JDBC for persistent data storage.
+- Implemented CRUD operations for question management and user administration.
+- Developed leaderboard tracking and quiz analytics functionality.
+- Applied Object-Oriented Programming principles with modular architecture.
+  
+---
+
 
 ## Features
 
 - Secure Login & Registration System
-- Admin Dashboard
-- Quiz Creation & Management
-- Add / Edit / Delete Questions
-- Real-Time Quiz Scoring
+- Role-Based Admin and Student Access
+- Question Management (Add, Edit, Delete)
+- MySQL Database Integration
+- JDBC-Based Data Access Layer
 - Leaderboard & Ranking System
-- Quiz Analytics & Performance Tracking
-- Timer-Based Quiz System
-- File-Based Persistent Storage
-- Dark-Themed Modern UI
+- Real-Time Quiz Scoring
+- Timed Quiz Assessments
+- Quiz Attempt History Tracking
+- Dark-Themed Interactive UI UI
 
 ---
 
-## Technologies Used
+## Tech Stack
 
 - Java
 - Java Swing
+- JDBC
+- MySQL
+- SQL
 - Object-Oriented Programming (OOP)
-- File Handling
-- Java Collections Framework
-
+- Prepared Statements
 ---
+
 
 ## Project Structure
 
@@ -46,17 +58,12 @@ quizmater-pro-java-system/
 │   ├── Main.java
 │   └── other source files
 │
-├── data/
-│   ├── attempts.dat
-│   ├── questions.dat
-│   └── users.dat
-│
 ├── screenshots/
-│   ├── login-page.jpeg
-│   ├── admin-dashboard.jpeg
-│   ├── add-question.jpeg
-│   ├── leaderboard.jpeg
-│   └── quiz-results.jpeg
+│   ├── login-page.png
+│   ├── admin-dashboard.png
+│   ├── add-question.png
+│   ├── leaderboard.png
+│   └── quiz-result.png
 │
 ├── README.md
 └── .gitignore
@@ -64,47 +71,42 @@ quizmater-pro-java-system/
 
 ---
 
-## How to Run
+## Database Setup
 
-### 1. Clone Repository
+### Create Database
 
-```bash
-git clone https://github.com/Ruchieyyy/quizmater-pro-java-system.git
+```sql
+CREATE DATABASE quizmaster;
 ```
 
-### 2. Open in IDE
+### Required Tables
 
-Open the project using:
-- Eclipse
-- IntelliJ IDEA
-- VS Code
+- users
+- questions
+- quiz_attempts
 
-### 3. Run Application
+Update database credentials inside:
 
-Navigate to:
+```text
+src/DatabaseManager.java
+```
+
+```java
+private static final String URL = "jdbc:mysql://localhost:3306/quizmaster";
+private static final String DB_USER = "root";
+private static final String DB_PASS = "your_password";
+```
+## How to Run
+
+1. Install MySQL Server and MySQL Workbench.
+2. Create the `quizmaster` database.
+3. Import the required tables.
+4. Update database credentials in `DatabaseManager.java`.
+5. Open the project in Eclipse or IntelliJ IDEA.
+6. Run:
 
 ```text
 src/Main.java
-```
-
-Run `Main.java`.
-
----
-
-## Default Credentials
-
-### Admin Access
-
-```text
-Username: admin
-Password: admin123
-```
-
-### Student Access
-
-```text
-Username: student
-Password: student123
 ```
 
 ---
@@ -153,6 +155,37 @@ Password: student123
 - Java Collections & Data Management
 
 ---
+
+## System Modules
+
+### Admin Module
+
+- Add Questions
+- Edit Questions
+- Delete Questions
+- View Users
+- Monitor Quiz Activity
+
+### Student Module
+
+- Register and Login
+- Attempt Timed Quizzes
+- View Scores
+- Track Ranking
+
+### Leaderboard Module
+
+- Score Tracking
+- User Ranking
+- Attempt History
+
+### Database Layer
+
+- JDBC Connectivity
+- MySQL Integration
+- Prepared Statements
+- CRUD Operations
+
 
 ## Future Improvements
 
