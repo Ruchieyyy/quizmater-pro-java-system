@@ -2,11 +2,10 @@
 
 ## Overview
 
-QuizMater Pro is a modern desktop-based quiz management platform developed using Java Swing and Object-Oriented Programming principles. The system provides secure role-based access, quiz management functionality, leaderboard tracking, score analytics, and persistent file-based storage.
-
-The application is inspired by modern quiz platforms and focuses on interactive UI design, modular architecture, and efficient quiz performance tracking.
+QuizMaster Pro is a desktop-based quiz management platform developed using Java Swing and Object-Oriented Programming principles. The system provides secure role-based access, quiz management, leaderboard tracking, score analytics, and MySQL-backed data persistence through JDBC integration.
 
 ---
+
 ## Project Highlights
 
 - Built a desktop-based quiz platform inspired by modern online assessment systems.
@@ -16,7 +15,6 @@ The application is inspired by modern quiz platforms and focuses on interactive 
 - Applied Object-Oriented Programming principles with modular architecture.
   
 ---
-
 
 ## Features
 
@@ -29,7 +27,7 @@ The application is inspired by modern quiz platforms and focuses on interactive 
 - Real-Time Quiz Scoring
 - Timed Quiz Assessments
 - Quiz Attempt History Tracking
-- Dark-Themed Interactive UI UI
+- Dark-Themed Interactive UI 
 
 ---
 
@@ -42,8 +40,8 @@ The application is inspired by modern quiz platforms and focuses on interactive 
 - SQL
 - Object-Oriented Programming (OOP)
 - Prepared Statements
+  
 ---
-
 
 ## Project Structure
 
@@ -96,6 +94,9 @@ private static final String URL = "jdbc:mysql://localhost:3306/quizmaster";
 private static final String DB_USER = "root";
 private static final String DB_PASS = "your_password";
 ```
+
+---
+
 ## How to Run
 
 1. Install MySQL Server and MySQL Workbench.
@@ -127,7 +128,10 @@ src/Main.java
 
 ### Quiz Result Screen
 ![Quiz Results](QuizMaster/screenshots/quiz-result.png)
-## Key Functionalities
+
+---
+
+## System Modules
 
 ### Admin Features
 
@@ -142,17 +146,6 @@ src/Main.java
 - View rankings
 - Analyze scores
 - Track performance
-
----
-
-## Learning Outcomes
-
-- Java Swing GUI Development
-- Event-Driven Programming
-- File Handling & Data Persistence
-- Object-Oriented Design
-- UI/UX Structuring
-- Java Collections & Data Management
 
 ---
 
@@ -185,18 +178,6 @@ src/Main.java
 - MySQL Integration
 - Prepared Statements
 - CRUD Operations
-
-
-## Future Improvements
-
-- Database Integration using MySQL
-- Online Multiplayer Quiz Mode
-- REST API Integration
-- Cloud Deployment
-- Authentication Encryption
-- Advanced Analytics Dashboard
-
----
 
 ## Author
 
